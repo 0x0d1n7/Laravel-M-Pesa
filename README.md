@@ -6,31 +6,31 @@ This is a simple e-commerce web application built using Laravel, Tailwind CSS, a
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/Muhidiny/Laravel-M-Pesa.git
+    git clone https://github.com/Muhidiny/Laravel-M-Pesa.git
 
 2. Install the required packages:
 
-composer install
+    composer install
 
 3. Copy the `.env.example` file to a new file called `.env` and update the necessary values, including the database credentials and M-Pesa API credentials:
 
-cp .env.example .env
+    cp .env.example .env
 
 4. Generate a new application key:
 
-php artisan key:generate
+    php artisan key:generate
 
 5. Run the database migrations to create the necessary tables:
 
-php artisan migrate
+    php artisan migrate
 
 6. Seed the database with some sample data:
 
-php artisan db:seed
+    php artisan db:seed
 
 7. Start the local development server:
 
-php artisan serve
+    php artisan serve
 
 ## Usage
 
